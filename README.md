@@ -93,19 +93,40 @@ The model focuses on **ranking stocks by probability of future outperformance**.
 
 # Example Output
 
-Top AI ranked stocks:
+🚀 AI STOCK PROJECT STARTED
+📊 Downloading data...
+100%|██████████████████████████████████████| 30/30 [00:20<00:00,  1.46it/s]
+Dataset saved as stock_dataset.csv
+Dataset size: 29910
+🤖 Training AI Model...
 
-```
-MU
-TXN
-NFLX
-BA
-ORCL
-CRM
-QCOM
-GOOGL
-AMD
-NVDA
+📊 MODEL RESULTS
+Accuracy: 0.7557766367137355
+              precision    recall  f1-score   support
+
+           0       0.76      0.98      0.85      4563
+           1       0.74      0.13      0.23      1669
+
+    accuracy                           0.76      6232
+   macro avg       0.75      0.56      0.54      6232
+weighted avg       0.75      0.76      0.69      6232
+
+
+🏆 AI STOCK RANKING
+      ticker  ai_score
+19939     MU  0.972788
+17945    TXN  0.136641
+11963   NFLX  0.111263
+13957    CRM  0.046349
+14954   ORCL  0.022761
+20936     BA  0.022534
+2990   GOOGL  0.015089
+15951    IBM  0.012887
+9969     AMD  0.011505
+24924     GE  0.010569
+Model saved as stock_ai_model.pkl
+
+
 ```
 
 These represent stocks the model predicts may have stronger future performance.
