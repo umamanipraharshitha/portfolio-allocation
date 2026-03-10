@@ -1,4 +1,4 @@
- ML Portfolio Allocation
+# ML Portfolio Allocation
 
 A machine learning-based portfolio optimization system that predicts which assets are likely to perform better and allocates funds accordingly. This approach supports informed investment decisions across multiple asset classes including stocks (Nifty & IPOs) and minerals.
 
